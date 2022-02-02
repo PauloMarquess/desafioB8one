@@ -3,5 +3,43 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
-  
+  font-family: 'Inter', sans-serif;
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.search-field{
+  position: relative;
+}
+.search-field input{
+  width: 902px;
+  height:48px ;
+  border-radius: 4px;
+  padding-left: 10px;
+  border: 1.5px solid #dadada;
+}
+.search-field button{
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  background: none;
+  border: none;
+}
+.search-field button :hover{
+  cursor: pointer;
+}
+ .card-flex {
+  display: flex;
+  align-items: center;
+  border: none;
+  background:none;
+}
+ .card-flex img{
+   margin-right: 10px;
+ }
+.card-flex :hover{
+  cursor: pointer;
 }
