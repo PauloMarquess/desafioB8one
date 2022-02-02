@@ -72,6 +72,9 @@ header{
   color:#E36305;
   margin-right: 0;
 }
+.current-session{
+  display: flex;
+}
 .left-side{
   width: 45%;
   padding-left: 30px;
@@ -84,4 +87,14 @@ header{
 }
 .left-side img{
   width: 70%;
+}
+.right-side{
+  width: 54%;
+}
+.reference{
+  display: flex;
+  justify-content: space-between;
+}
+.reference :last-child{
+  color: forestgreen;
 }
