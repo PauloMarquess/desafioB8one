@@ -1,71 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Open+Sans+Condensed:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Desafio B8one</title>
-    <header>
-      <img src="./assets/img/logo.png" alt="Logo B8one" />
-      <form class="search-field">
-        <input placeholder="What are you looking for ?" />
-        <button>
-          <img class="lupa" src="./assets/icons/search.svg" alt="Lupa" />
-        </button>
-      </form>
-      <button class="card-flex">
-        <img  src="./assets/icons/user.svg" alt="Login" />
-        <h5>SING IN</h5>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Open+Sans+Condensed:wght@700&display=swap"
+    rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Desafio B8one</title>
+  <header>
+    <img src="./assets/img/logo.png" alt="Logo B8one" />
+    <form class="search-field">
+      <input placeholder="What are you looking for ?" />
+      <button>
+        <img class="lupa" src="./assets/icons/search.svg" alt="Lupa" />
       </button>
-      <button class="card-flex">
-        <img  src="./assets/icons/heart.svg" alt="Coração" />
-        <h5>WISHLIST</h5>
-      </button>
-    </header>
-  </head>
-  <body>
-    <nav>
-      <ul class="menu">
-        <li><a>Electronics</a></li>
-        <li><a>Smart Home</a></li>
-        <li><a>Computers</a></li>
-        <li><a>New in Furnitures</a></li>
-        <li><a>Home & Kitchen</a></li>
-        <li><a>Video Game Sale</a></li>
-        <li><a>Holiday Deals</a></Holiday></li>    
-      </ul>
-    </nav>
-    <nav>
-      <ul class="navigation">
-        <li>Home</li>
-        <img src="./assets/icons/chevron-right.svg" alt="Seta da direita"/>
-        <li>Electronics</li>
-        <img src="./assets/icons/chevron-right.svg" alt="Seta da direita"/>
-        <li>Computers</li>
-      </ul>
-    </nav>
-    <div class="current-session">
-      <div class="left-side">
-        <img src="./assets/img/large.png" alt="Foto do produto"/>
-        <p>Roll over image to zoom in</p>
-      </div>
-      <div class="right-side">
+    </form>
+    <button class="card-flex">
+      <img src="./assets/icons/user.svg" alt="Login" />
+      <h5>SING IN</h5>
+    </button>
+    <button class="card-flex">
+      <img src="./assets/icons/heart.svg" alt="Coração" />
+      <h5>WISHLIST</h5>
+    </button>
+  </header>
+</head>
+
+<body>
+  <nav>
+    <ul class="menu">
+      <li><a>Electronics</a></li>
+      <li><a>Smart Home</a></li>
+      <li><a>Computers</a></li>
+      <li><a>New in Furnitures</a></li>
+      <li><a>Home & Kitchen</a></li>
+      <li><a>Video Game Sale</a></li>
+      <li><a>Holiday Deals</a></Holiday>
+      </li>
+    </ul>
+  </nav>
+  <nav>
+    <ul class="navigation">
+      <li>Home</li>
+      <img src="./assets/icons/chevron-right.svg" alt="Seta da direita" />
+      <li>Electronics</li>
+      <img src="./assets/icons/chevron-right.svg" alt="Seta da direita" />
+      <li>Computers</li>
+    </ul>
+  </nav>
+  <div class="current-session">
+    <div class="left-side">
+      <img src="./assets/img/large.png" alt="Foto do produto" />
+      <p>Roll over image to zoom in</p>
+    </div>
+    <div class="right-side">
+      <div class="description">
         <p>Apple</p>
-        <h4>Apple 13.3" Macbook Pro, 2.6GHz Intel Core i7 6 core 9th Gen (Late 2019, SpaceGray)</h4>
-        <div class="reference">
+        <h3>Apple 13.3" Macbook Pro, 2.6GHz Intel Core i7 6 core 9th Gen (Late 2019, SpaceGray)</h3>
+      </div>
+      <div class="reference">
         <p>Ref: 000000</p>
         <h5>READ FULL DESCRIPTION</h5>
       </div>
+      <div class="mini-container">
+        <div class="mini-left">
+          <h5>Color:<span> Space Gray</span></h5>
+          <div class="colors">
+            <div class="color">
+            </div>
+            <div class="color">
+            </div>
+            <div class="color">
+            </div>
+          </div>
+          <div>
+              <h5>Screen Size:</h5>
+              <ul class="screen-size">
+                <li>13.3”</li>
+                <li>18”</li>
+                <li>21”</li>
+              </ul>
+          </div>
+        </div>
+      <div class="mini-right">
+        <h1>teste</h1>
       </div>
-      
-      <div class="mini-container"></div>
+
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

@@ -74,6 +74,7 @@ header{
 }
 .current-session{
   display: flex;
+  justify-content: space-between;
 }
 .left-side{
   width: 45%;
@@ -89,12 +90,67 @@ header{
   width: 70%;
 }
 .right-side{
-  width: 54%;
+  width: 50%;
 }
 .reference{
   display: flex;
   justify-content: space-between;
 }
 .reference :last-child{
-  color: forestgreen;
+  color: #40B25C;
+}
+.description{
+  width: 90%
+}
+.description p{
+  color: #40B25C;
+}
+.reference{
+  margin: 20px 0;
+}
+.reference :last-child{
+  margin-right: 50px;
+}
+.mini-container{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+
+}
+.mini-left{
+  width: 45%;
+}
+.mini-left span {
+  color: #000000c4;
+}
+.colors {
+  display: flex;
+  margin: 10px;
+}
+
+.color{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color:#000000c4;
+  margin-right: 10px;
+  border-radius: 50%;
+  align-self: center;
+}
+.mini-right{
+  width: 45%;
+ 
+}
+.screen-size{
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+}
+.screen-size li{
+  border: solid 1px #40464D;
+  border-radius: 4px;
+  height: 28px;
+  padding:12px;
+  align-items: center;
+  width: 70px;
 }
