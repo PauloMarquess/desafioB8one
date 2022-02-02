@@ -72,3 +72,16 @@ header{
   color:#E36305;
   margin-right: 0;
 }
+.left-side{
+  width: 45%;
+  padding-left: 30px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color: #40464D;
+  padding-bottom: 20px;
+}
+.left-side img{
+  width: 70%;
+}
