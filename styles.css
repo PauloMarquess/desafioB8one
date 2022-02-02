@@ -4,6 +4,7 @@
   text-decoration: none;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+  list-style: none;
 }
 header{
   width: 100%;
@@ -15,7 +16,7 @@ header{
   position: relative;
 }
 .search-field input{
-  width: 902px;
+  width: 800px;
   height:48px ;
   border-radius: 4px;
   padding-left: 10px;
@@ -42,4 +43,32 @@ header{
  }
 .card-flex :hover{
   cursor: pointer;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  gap: 0 30px;
+  background-color: #000;
+  color: #fff;
+  height: 48px;
+  align-items: center;
+  transition: 1s;
+}
+.menu li :hover{
+  cursor: pointer;
+  color: #E36305;
+  transition: 0.5s;
+}
+.navigation{
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.navigation img {
+  margin: 0 5px;
+}
+.navigation :last-child{
+  color:#E36305;
+  margin-right: 0;
 }
