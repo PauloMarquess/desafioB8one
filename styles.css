@@ -280,3 +280,29 @@ margin-right: 5px;
   margin-top: 10px;
   width: 85%;
 }
+.products{
+  margin-top:40px ;
+  padding-left: 20px;
+}
+.list-item{
+  display: flex;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  width:16% ;
+  text-align: start;
+  gap:5px 0;
+  margin-right: 40px;
+}
+.product p{
+  color:#9FA3A6;
+  text-decoration: line-through;
+}
+.product h5{
+  color: #40464D;
+  font-family: normal;
+}
+.product h4{
+  margin-bottom: 5px;
+}
