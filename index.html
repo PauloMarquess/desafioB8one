@@ -98,7 +98,7 @@
           </div>
           <div class="mini-right">
             <div class="price">
-              <h1>$ 3,199.00</h1>
+              <h1 id="total">0</h1>
               <div class="discount">
                 <p>$ 3,600.00 </p>
                 <span>SAVE $ 0</span>
@@ -106,9 +106,9 @@
             </div>
             <div class="count-card">
               <div class="count">
-                <button>-</button>
-                <h5>01</h5>
-                <button>+</button>
+                <button onclick="decrement()">-</button>
+                <h5 id="current-number">1</h5>
+                <button onclick="increment()">+</button>
               </div>
               <div class="stock">
                 <p>Only 3 left in Stock</p>
@@ -351,6 +351,7 @@
       </div>
     </section>
   </footer>
+  <script src="./script.js"></script>
 </body>
 
 </html>
