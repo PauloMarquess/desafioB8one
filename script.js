@@ -1,7 +1,8 @@
 var currentNumberWrapper = document.getElementById("current-number")
 var currentTotalWrapper = document.getElementById("total")
 var currentNumber = 1;
-currentTotal = 399
+var fix =3199
+currentTotal = fix.toFixed(2)
 currentTotalWrapper.innerHTML = currentTotal
 console.log(currentTotalWrapper)
 
@@ -9,19 +10,19 @@ console.log(currentTotalWrapper)
 function increment(){
   currentNumber = currentNumber +1
   currentNumberWrapper.innerHTML=currentNumber;
-  var currentTotal = 399 * currentNumber
-  currentTotalWrapper.innerHTML =currentTotal
+  var currentTotal = 3199 * currentNumber
+  currentTotalWrapper.innerHTML =currentTotal.toFixed(2).replace(".", ",")
 }
 function decrement(){
   if (currentNumber >= 1){
   
   currentNumber = currentNumber -1
   currentNumberWrapper.innerHTML=currentNumber;
-  var currentTotal = 399 * currentNumber
-  currentTotalWrapper.innerHTML =currentTotal
+  var currentTotal = 3199 * currentNumber
+  currentTotalWrapper.innerHTML =currentTotal.toFixed(2).replace(".", ",")
 }}
   if(currentNumber ==1){
-   var currentTotal = 399
+   var currentTotal = 3199
  }
  else{
    currentNumber=0

@@ -212,6 +212,12 @@ header{
   align-items: center;
   
 }
+.price section{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
 .price p{
 text-decoration: line-through;
 font-size: 14px;
