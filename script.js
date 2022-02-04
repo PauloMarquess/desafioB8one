@@ -26,3 +26,20 @@ function decrement(){
  else{
    currentNumber=0
  }
+ 
+ var title =document.getElementById('alterar')
+ var namee = document.getElementById('alterar')
+ 
+ function spaceGray(){
+   title.style.color='#3b3b3b'
+   namee.innerHTML='Space Gray'
+ }
+ function Salmon(){
+   title.style.color='salmon'
+   namee.innerHTML='Salmon'
+ 
+ }
+ function Gray(){
+   title.style.color='#c8c8cf'
+    namee.innerHTML='Gray'
+ }
