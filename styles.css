@@ -393,3 +393,24 @@ width: 100%;
   right: 20px;
   bottom: 40%;
 }
+.About{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  
+  font-weight: normal;
+  align-self: center;
+  padding-left: 30px;
+  margin:40px 0;
+  gap: 20px 0;
+}
+.About p{
+  color: #40464D;
+  font-size: 14px;
+}
+.About h4{
+  font-size: 14px;
+}
+.About a{
+  color: #0000ff;
+}
